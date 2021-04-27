@@ -1,0 +1,20 @@
+c "Inventory Test #6"
+c "Add multiple mobs and fight with new abilites"
+c "verify the abilites work and goblins die"
+
+
+s p r 10
+s p w 4
+s p p 6
+s p m 9
+
+s e 12
+s e 3
+s e 2
+
+a 10 12 parkour
+a 4 3 pointy_stick
+a 6 2 holy_hand_grenade
+a 9 2 head_explosion
+
+p a
