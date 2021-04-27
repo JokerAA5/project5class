@@ -23,6 +23,11 @@ void Rogue::Blindside(Entity * target)
     Attack(target, 20, "Blindside");
 }
 
+void Rogue::Parkour(Entity * target)
+{
+    Attack(target, GetAgility() * 0.5, "Parkour");
+}
+
 void Rogue::OutputStatus() const
 {
     std::cout << Class() << ": " << this->Name()
@@ -62,6 +67,11 @@ void Rogue::UseAction(Entity * target, const std::string& spellName, const std::
     if(spellName == "blindside")
     {
         Blindside(target);
+        return;
+    }
+    if(spellName == "parkour")
+    {
+        Parkour(target);
         return;
     }
 

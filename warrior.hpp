@@ -11,6 +11,7 @@ private:
 
     void Strike(Entity* target);
     void ShieldSmash(Entity * target);
+    void PointyStick(Entity * target);
 
 public:
     Warrior(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t uid);

@@ -19,6 +19,10 @@ void Priest::GreaterHeal(Entity *target)
     Heal(target, GetWisdom() * 2.0, "Greater Heal");
 }
 
+void Priest::HolyHandGrenade(Entity *target)
+{
+    Attack(target, GetWisdom() * 3.0, "Holy Hand Grenade");
+}
 
 void Priest::OutputStatus() const
 {
@@ -50,6 +54,11 @@ void Priest::UseAction(Entity * target, const std::string& spellName, const std:
     if(spellName == "greater_heal")
     {
         GreaterHeal(target);
+        return;
+    }
+    if(spellName == "holy_hand_grenade")
+    {
+        HolyHandGrenade(target);
         return;
     }
     errorFindingAbility(spellName);
