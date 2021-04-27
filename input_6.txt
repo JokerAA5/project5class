@@ -13,8 +13,8 @@ s e 3
 s e 2
 
 a 10 12 parkour
-a 4 3 pointy_stick
-a 6 2 holy_hand_grenade
-a 9 2 head_explosion
+a 4 2 pointy_stick
+a 6 3 holy_hand_grenade
+a 9 3 head_explosion
 
 p a
