@@ -1,0 +1,66 @@
+""Inventory Test #6""
+""Add multiple mobs and fight with new abilites""
+""verify the abilites work and goblins die""
+Elva the rogue has entered the battle
+Jim the Strong the warrior has entered the battle
+Healer McMedic the priest has entered the battle
+Uniden the mage has entered the battle
+Bad Goblin 1 the monster has entered the battle
+Great Goblin the monster has entered the battle
+Hobgoblin the monster has entered the battle
+Elva uses Parkour on target Bad Goblin 1 dealing 8 damage.
+Bad Goblin 1 dies
+Jim the Strong uses Pointy Stick on target Hobgoblin dealing 25 damage.
+Healer McMedic uses Holy Hand Grenade on target Great Goblin dealing 48 damage.
+Uniden uses Head Explosion on target Great Goblin dealing 42 damage.
+Great Goblin dies
+Warrior: Jim the Strong
+	Current HP: 15
+	Strength: 17
+[Sword of a Thousand Truths]: 
+	Type : sword
+	Armor: 0
+	Damage: 20
+
+[Nameless Chest Armor]: 
+	Type : chest
+	Armor: 10
+	Damage: 0
+
+[Duskblade of Draktharr]: 
+	Type : sword
+	Armor: 0
+	Damage: 14
+
+[Riftmaker]: 
+	Type : staff
+	Armor: 0
+	Damage: 4
+
+--------------------------------
+Priest: Healer McMedic
+	Current HP: 9
+	Wisdom: 16
+--------------------------------
+Mage: Uniden
+	Current HP: 5
+	Intelligence: 17
+[Nameless Chest Armor]: 
+	Type : chest
+	Armor: 10
+	Damage: 0
+
+[aghanim's scepter]: 
+	Type : staff
+	Armor: 0
+	Damage: 4
+
+--------------------------------
+Rogue: Elva
+	Current HP: 7
+	Agility: 17
+[Heart of Tarrasque]: 
+	Type : shield
+	Armor: 22
+	Damage: 0
+
