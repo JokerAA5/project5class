@@ -1,6 +1,6 @@
 # project5class
 #### Project Goals
-We will be adding 4 new skills, 1 for each of the entity's corresponding traits.\
+We will be adding 4 new skills, 1 for each of the entity's corresponding traits.
 #### Implementation
 For the warrior we will be making a new skill called PointyStick that is the result of the warrior's stength times 1.5.\
 We will implement this in the warrior's hpp file and cpp file utilizing it like the other attack commands with our specified parameters.\
@@ -12,4 +12,4 @@ For the rogue we will be making a new skill called Parkour which damage is equal
 We will implement this in the rouge's hpp file and cpp file utiilziing the same technqiues as before only this time using GetAgility().\
 We will need to make sure for each entity's cpp file we add the new spell under useaction with the required spell name.\
 We may also need to create new strings and uid codes for these spells as they have not been implmented and create a new input file that will have
-the four party members use their new abilites to take down a group of monsters.\
+the four party members use their new abilites to take down a group of monsters.
